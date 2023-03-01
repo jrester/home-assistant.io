@@ -32,6 +32,10 @@ There is currently support for the following device types within Home Assistant:
 
 {% include integrations/config_flow.md %}
 
+Please be aware that the naming might be a bit confusing and different from what you see in the app:
+- Load generally refers to the part of your setup that is drawing energy (e.g. your house and all the electronic devices in it)
+- Site refers to the grid
+
 ### Binary Sensor
 
 The following binary sensors are added for each Powerwall:
