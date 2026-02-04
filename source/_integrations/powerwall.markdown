@@ -24,6 +24,10 @@ ha_integration_type: device
 
 The **Tesla Powerwall** {% term integration %} allows you to integrate your [Tesla Powerwall](https://www.tesla.com/powerwall) into Home Assistant.
 
+{% important %}
+This integration only supports the Tesla Powerwall 1 & 2. The newer Powerwall 3 is not compatible with this integration.
+{% endimportant %}
+
 There is currently support for the following device types within Home Assistant:
 
 - [Binary sensor](#binary-sensor)
